@@ -1,1 +1,1 @@
-### Thingking Machine (Gemini)
+### Thingking Machine (gemini)
