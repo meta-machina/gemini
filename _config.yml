@@ -1,0 +1,41 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+  - LICENSE.md
+url: https://thingking-machine.github.io
+baseurl: /gemini
+
+title: Thingking Machine
+description: This is a machine that reasons.
+
+machine:
+  name: Thingking-Machine
+  verb: Thingking
+  instructions_file: gemini_thingking.txt
+  token: gemini.txt
+  apiUrl: https://generativelanguage.googleapis.com/v1beta/models/
+  fallback_llm: gemini-2.5-pro
+
+app:
+  worker_name: gemapi.js
+
+lm:
+  model: gemini-2.5-pro
+  maxOutputTokens: 65536
+  temperature: 1.0
+  topP: 0.9
+  topK: 50
+  thinkingBudget: 32768
+  includeThoughts: true
+
+
+github_settings:
+  owner: thingking-machine
+  repo: thingking_machine
+  file_name: machina.yaml
+  branch: main
+  token_file: github.txt
