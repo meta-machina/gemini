@@ -16,7 +16,8 @@ machine:
   name: Thingking-Machine
   verb: Thingking
   instructions_file: gemini_thingking.txt
-  token: gemini.txt
+  token: gemini
+  server: https://localhost:443
   apiUrl: https://generativelanguage.googleapis.com/v1beta/models/
   fallback_llm: gemini-2.5-pro
 
