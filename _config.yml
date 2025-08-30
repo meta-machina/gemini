@@ -15,7 +15,7 @@ description: This is a machine that reasons.
 machine:
   name: Thingking-Machine
   verb: Thingking
-  instructions_file: gemini_thingking.txt
+  instructions_file: gemini_thingking.md
   token: gemini
   server: https://localhost:443
   apiUrl: https://generativelanguage.googleapis.com/v1beta/models/
