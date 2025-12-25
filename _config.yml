@@ -30,7 +30,7 @@ lm:
   temperature: 1.0
   topP: 0.9
   topK: 50
-  thinkingBudget: 32768
+  thinkingBudget: 24576
   includeThoughts: true
 
 
